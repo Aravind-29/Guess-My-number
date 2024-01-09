@@ -21,7 +21,7 @@ body{
     display: grid;
     justify-items: center;
     font-family: "poppins", sans-serif;
-    box-shadow: 8px 8px  8px rgba(0, 0, 0, 0.1); /* Add box shadow with horizontal offset, vertical offset, blur radius, and color */
+    box-shadow: 8px 8px  8px rgba(0, 0, 0, 0.1); 
 }
 .title{
     color:black;
@@ -91,13 +91,9 @@ body{
       border-bottom: 1px solid lighten(#1288BF, 70%);
     }
   }
-
-  /* Hover effect */
   .icon-button:hover {
     background-color:#1288BF;
   }
-
-  /* Icon styling */
   .icon-button i {
     margin-right: 5px;
   }
@@ -151,7 +147,6 @@ body{
     margin-left: 51px;
   }
   .message{
-    /*border: 1px solid black;*/
     height: 30px;
     margin-bottom: 30px;
     text-align: center;
@@ -169,7 +164,6 @@ body{
       max-width: 50px;
       height: 50px;
       visibility: hidden;
-      /*margin-left: -125px;*/
       margin: auto;
       background-color: #333;
       color: #fff;
