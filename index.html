@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess My Number</title>
+    <link rel="stylesheet" href="./guess.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-...." crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Guess My Number</h1>
+        <h3 class="subTitle">(Between 1 to 50)</h3>
+        <div class="number">?</div>
+        <button type="button" class="icon-button">
+            <i class="fa-solid fa-rotate-left"></i>Again
+          </button>
+        <section class="left">
+            <input  class="guess" placeholder="">
+            <button class="check">Enter</button>
+          </section>
+          <section class="right">
+            <div> <p class="message"></p></div>
+            <div class="label-score"><p>💯 Score :<span class="score">20</span></p></div>
+            <div class="label-highscore"><p >
+                🥇 Highscore : <span class="highscore">0</span>
+              </p></div>
+          </section>
+          <div >
+            <div id="toast"><div id="img" class="small">Icon</div>
+            <div id="desc" class="big">A notification message..</div></div>
+          </div>
+</div>
+
+          
+   
+    <script src="script.js"></script>
+
+</body>
+</html>
